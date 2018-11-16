@@ -35,12 +35,12 @@ GEM
     jekyll-watch (2.0.0)
       listen (~> 3.0)
     kramdown (1.17.0)
-    liquid (4.0.0)
+    liquid (4.0.1)
     listen (3.1.1)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9.7)
     mercenary (0.3.6)
-    pathutil (0.16.1)
+    pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (3.0.3)
     rb-fsevent (0.10.3)
@@ -63,4 +63,4 @@ DEPENDENCIES
   jekyll-sitemap
 
 BUNDLED WITH
-   1.16.5
+   1.17.1
