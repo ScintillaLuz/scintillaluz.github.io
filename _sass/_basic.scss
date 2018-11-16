@@ -195,8 +195,8 @@ blockquote {
 
 a {
 	text-decoration: none;
-	color: $text-dark-color;
-	font-weight: $bold-weight;
+	color: $accent-color;
+	font-weight: $regular-weight;
 	@include transition(all 0.15s ease-in-out);
 
 	&:hover {

@@ -1,26 +1,26 @@
 basic_settings:
-  site_title: Duet
+  site_title: Valentina M.
   favicon_image: /images/favicon.png
 
 header_settings:
-  logo_image: 
+  logo_image:
   logo_width: 200
 
 menu_settings:
   menu_items:
     - title: 'Projects'
       url: '/'
-    - title: 'Blog'
+    - title: 'Writing'
       url: '/blog/'
     - title: 'About'
       url: '/about'
-    - title: 'Contact'
+    - title: 'Write me'
       url: '/contact'
 
 footer_settings:
-  logo_image: 
+  logo_image:
   logo_width: 200
-  footer_tagline: A beautiful, minimal two-column portfolio Jekyll theme
+  footer_tagline: I chose to be a designer because I wanted never to be bored.
 
 grid_settings:
   overlay_opacity: 0.8
@@ -33,8 +33,8 @@ contact_settings:
   send_button_text: 'Send Message'
 
 social_settings:
-  facebook_url: 'https://www.facebook.com/jekyllthemes/'
-  twitter_url: 'https://twitter.com/jekyllthemesio'
+  facebook_url: ''
+  twitter_url: ''
   instagram_url: 'http://instagram.com'
   snapchat_url: ''
   youtube_url: ''
@@ -46,8 +46,8 @@ social_settings:
   amazon_url: ''
   apple_url: ''
   android_url: ''
-  tumblr_url: 'http://tumblr.com'
-  dribbble_url: 'http://dribbble.com'
+  tumblr_url: ''
+  dribbble_url: 'http://dribbble.com/ScintillaLuz'
   behance_url: ''
   deviantart_url: ''
   github_url: ''
@@ -57,28 +57,28 @@ social_settings:
   kickstarter_url: ''
   soundcloud_url: ''
   spotify_url: ''
-  bandcamp_url: ''
-  linkedin_url: ''
+  bandcamp_url: 'http://bandcamp.com/scintillaluz'
+  linkedin_url: 'https://www.linkedin.com/in/scintillaluz/'
 
 color_settings:
-  background_color: '#ffffff'
+  background_color: '#f5f5f5'
   background_alt_color: '#f4f5f6'
-  text_dark_color: '#2A2F36'
-  text_medium_color: '#6C7A89'
-  text_light_color: '#ABB7B7'
-  accent_color: '#F2784B'
+  text_dark_color: '#333333'
+  text_medium_color: '#4e4d4d'
+  text_light_color: '#c7c7c7'
+  accent_color: '#8065ec'
   border_color: '#dddddd'
-  overlay_background_color: '#F2784B'
+  overlay_background_color: '#8065ec'
   overlay_text_color: '#ffffff'
   overlay_accent_color: '#2A2F36'
   error_color: '#D64541'
 
 font_settings:
-  font_embed: '<link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700" rel="stylesheet">'
-  title_font: '"Muli", sans-serif'
-  body_font: '"Muli", sans-serif'
+  font_embed: '<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i" rel="stylesheet">'
+  title_font: '"PT Serif", serif'
+  body_font: '"PT Serif", serif'
   regular_weight: 400
-  bold_weight: 600
+  bold_weight: 700
   site_title:
     small_size: 25
     medium_size: 30
@@ -89,7 +89,7 @@ font_settings:
     small_size: 30
     medium_size: 15
     large_size: 17
-    weight: 600
+    weight: 700
     letter_spacing: 0
   grid_item_title:
     small_size: 22
@@ -121,7 +121,7 @@ font_settings:
     small_size: 22
     medium_size: 25
     large_size: 30
-    weight: 600
+    weight: 700
     letter_spacing: -0.02
     line_height: 1.3
   h4:
@@ -160,7 +160,7 @@ font_settings:
     letter_spacing: -0.02
     line_height: 1.6
   buttons:
-    weight: 600
+    weight: 700
     letter_spacing: 0
 
 advanced_settings:

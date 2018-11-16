@@ -42,16 +42,17 @@
 	}
 
 	@include mq(tabletp) {
-		font-size: $sitetitle-medium;
+		font-size: $sitetitle-small;
 	}
 
 	@include mq(laptop) {
-		font-size: $sitetitle-large;
+		font-size: $sitetitle-small;
 	}
 }
 
 .footer__text {
-	color: $text-light-color;
+	color: $text_medium_color;
+	font-size: $p-medium;
 }
 
 .footer__copyright {
