@@ -12,7 +12,7 @@ menu_settings:
       url: '/'
     - title: 'Writing'
       url: '/blog/'
-    - title: 'About'
+    - title: 'My Story'
       url: '/about'
     - title: 'Write me'
       url: '/contact'
