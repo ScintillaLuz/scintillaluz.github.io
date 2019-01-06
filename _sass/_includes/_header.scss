@@ -65,7 +65,7 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Menu
 
 .menu {
-	
+
 	@include mq(tabletl) {
 		position: absolute;
 		top: 50%;
@@ -88,7 +88,7 @@
 	@include mq(tabletp) {
 		right: 0;
 	}
-	
+
 	@include mq(tabletl) {
 		display: none;
 	}
@@ -126,16 +126,16 @@
 	span:before, span:after {
 		background: $overlay-text-color !important;
 	}
-		
+
 	span {
 		background-color: transparent !important;
 	}
-	
+
 	span:before,
 	span:after {
 		top: 0;
 	}
-	
+
 	span:before {
 		@include rotate(45);
 	}
@@ -227,7 +227,7 @@
 	@include mq(laptop) {
 		font-size: $menu-large;
 	}
-	
+
 	&.active-link {
 		color: $overlay-accent-color;
 

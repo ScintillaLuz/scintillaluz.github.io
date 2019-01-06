@@ -1,23 +1,35 @@
 ---
 layout: page
-title: Once upon a time...
+title: About me
 permalink: /about/
 ---
 
-There was a time when I anxiously waited for a printer's call to go an pick up a pack of fresh prints. There was another time after that, when I learned everything I could about pixels and CSS preprocessing. Here's the story of how I walked out of traditional graphic design to work in tech.
+I hold a BA in Fashion Design and two MAs — Graphic Design for Communication at the Politecnico in Milan, and Book Design and Typography at the University of Reading, UK. I’ve been a designer for about 14 years now, working on consumer web products for about half of that time. I’ve been experimenting with pretty much anything, from type design and vector illustration, to icons and frontend development. My current expertise — and my heart! — is now product strategy and UX.
 
-You can see a selection of my print and branding work collected here. I keep my early UI experiments and icons on my Dribbble.
+If you want a detailed account of my studies and my professional experience, you can <a target="_blank" href="https://www.linkedin.com/in/scintillaluz/">head over to my LinkedIn account</a> or download my CV here.
 
-### My story
+Following is heartfelt account of how I ended up where I currently am in my professional journey. Enjoy!
 
-In 2010 I went back to **Italy**, after graduating in Book Design at the Department of Typography of the University of Reading, England. That autumn, as I was holding a fresh degree in my hands the iPad crashed the book market, and changed things forever. I landed a graphic design job at a tiny snazzy magazine in Milan called ZERO, and in six months I was my most miserable self.
 
-I knew drawing being the centre of my life since I was four. I picked art in high school, and dropped out of Fine Arts Academy after one year. I found design, and a more challenging environment at The Politecnico in Milan. There started my love affair with vectors, and a long-term relationship with the Bauhaus principles and typography. I studied and worked, and got inebriated sniffing freshly printed offset ink.
+## My story
 
-Traditional graphic design jobs meant a lot of compromises, especially with in-agency clients work. The Milan magazine's gig was the last chapter in my career as a print-focused designer. I wanted to be on the forefront of innovation, working on products used by thousands (millions?) of people every single day. I wanted to participate in a culture of sharing, where contributing meant growth for all. That was for me the Web.
+There was a time when I would sit at my desk, anxiously waiting for the print shop’s agent to come in from the door holding a bunch of magazines, freshly printed covers and offset-smelling. He would put them in our hands, and we would let out a sigh of relief — and we felt proud. Not long after that, I hid in my Berlin room for the winter holidays, absorbing everything I could about pixels, HTML, and CSS pre-processing.
 
-I devoured anything I could find online. I built news skills capitalizing on my design method foundations. I took big risks — I co-founded a startup, got funding and moved to Berlin without ever being in the city before. I matured as a web designer, and made terrible mistakes as a manager. I taught myself everything I needed to be proficient in HTML & CSS, with precious help from programmers closest to me. I failed and crashed and looked at the ashes all around me, panicked and then thought "this is good." The company did not survive, but I understood that was irrelevant. Even arrogant.
+Here’s how I walked away from graphic design to start a career in tech.
 
-I moved on. I exerted resilience.
 
-Now I am a product designer based in Oakland, California. I am currently working at Bandcamp, designing experiences to make music lovers and artists happy.
+<p align="center">***</p>
+
+
+It was 2010 when I completed my second MA, this time in Book Design, at the Department of Typography in Reading, England. That autumn, on a taxi on my way to Gatwick, my degree stuffed somewhere in a suitcase — the publishing industry changed forever. The iPad wrecked the market, e-books became a thing, and when I returned to Italy I realized my hard-earned certification was just… _ancient_. An exquisitely obsolete piece of paper. I landed a graphic design job in Milan, at a tiny snazzy magazine called ZERO. In six months I was my most miserable self.
+
+I knew what I was most interested in since I was four.
+Out of the specializations offered in high school, I picked art. Sculpture, life-drawing, cinema, and — bigger than anything else — theatre. I got full grades and moved on with the oh-so-predictable artist path, to drop out of the Fine Arts Academy at the end of its first year. Egalitarian traditions all around me. It felt like breathing dust, and I was restless. I wanted to be challenged.
+
+I found motivation in the design method — problem solving for humans and machiens alike. I enrolled at The Politecnico in Milan, where I started a love affair with vectors, and long-term relationship with the Bauhaus principles. I grew obsessed with typography. By the end of my BA I was studying and working as a junior type design assistant and illustrator. I got my first MA, I tried freelancing.
+
+Traditional graphic design jobs meant a lot of compromises, especially with in-agency clients work. The Milan magazine’s gig was the last chapter in my career as a print-focused designer. I wanted to observe human behavior, I wanted to design for real humans, as many humans as possible. Thousands. Millions? I wanted my work to have _impact_. I wanted to participate in a culture of sharing, where giving back was encouraged. A community where individual growth meant growth for all. The Web.
+
+I honored the design principles that were centrail to my studies, and made them the base of my new practice. I took big risks — co-founded a small company, and moved to Berlin. Without having ever been there before. I got better and better as a designer, and made shameful mistakes as a co-founder. I failed and crashed and looked at the mess all around me, panicking. The company did not survive, but I understood that was irrelevant to expect so. Arrogant.
+
+These days, I am a product designer based in Oakland, California. I’m still fascinated by human behavior in digital environments, how we interact with machines and with others through those machines. If there’s hope left for information society to support equality and representation, design should be in the front line. It’s where I want to be.

@@ -5,9 +5,9 @@
 // - - - - - - - - - - - - - - - - - -
 
 .intro {
-	
+
 	h1 {
-		
+
 		@include mq(tabletp) {
 			white-space: pre-line;
 		}
@@ -93,8 +93,8 @@
 	}
 
 	p a {
-		font-weight: $bold-weight;
-		border-bottom: 2px solid $accent-color;
+		font-weight: $regular-weight;
+		border-bottom: 1px dotted $accent-color;
 	}
 
 	p .button {
@@ -180,7 +180,7 @@
 				font-size: $p-large;
 			}
 		}
-		
+
 		tr {
 
 			&:nth-child(2n) {
