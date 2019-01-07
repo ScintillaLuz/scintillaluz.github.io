@@ -2,10 +2,10 @@
 title: About me
 subtitle:
 description:
-featured_image: 
+featured_image:
 ---
 
-!I hold a BA in Fashion Design and two MAs — Graphic Design for Communication at the Politecnico in Milan, and Book Design and Typography at the University of Reading, UK. I’ve been a designer for about 14 years now, working on consumer web products for about half of that time. I’ve been experimenting with pretty much anything, from type design and vector illustration, to icons and frontend development. My current expertise — and passions! — are product strategy and UX.
+I hold a BA in Fashion Design and two MAs — Graphic Design for Communication at the Politecnico in Milan, and Book Design and Typography at the University of Reading, UK. I’ve been a designer for about 14 years now, working on consumer web products for about half of that time. I’ve been experimenting with pretty much anything, from type design and vector illustration, to icons and frontend development. My current expertise — and passions! — are product strategy and UX.
 
 If you want a detailed account of my studies and my professional experience, you can <a target="_blank" href="https://www.linkedin.com/in/scintillaluz/">head over to my LinkedIn account</a> or download my CV here.
 
