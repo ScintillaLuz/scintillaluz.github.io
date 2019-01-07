@@ -9,7 +9,7 @@
 }
 
 .portfolio-wrap {
-	
+
 }
 
 .portfolio-item {
@@ -86,6 +86,6 @@
 	}
 
 	@include mq(laptop) {
-		font-size: $grid-item-subtitle-large;
+		font-size: $grid-item-subtitle-small;
 	}
 }

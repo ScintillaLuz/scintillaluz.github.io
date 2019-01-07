@@ -44,7 +44,7 @@
 	.gallery__wrap {
 
 	}
-	
+
 	.gallery__item {
 
 	}
@@ -79,7 +79,7 @@
 			outline: none;
 
 			&.active {
-				background: $accent-color;
+				background: $text_dark_color;
 			}
 		}
 	}
@@ -95,7 +95,7 @@
 		margin-left: -$grid-spacing/2;
 		margin-right: -$grid-spacing/2;
 	}
-	
+
 	.gallery__item {
 		float: left;
 		width: 50%;
@@ -177,6 +177,3 @@
 		}
 	}
 }
-
-
-
