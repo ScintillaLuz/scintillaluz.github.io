@@ -14,12 +14,12 @@ Following is a heartfelt account of my professional journey. Enjoy!
 
 ## My story
 
-There was a time when I would sit at my desk, anxiously waiting for the print shop’s agent to come in from the door holding a bunch of magazines, freshly printed covers and offset-smelling. He would put them in our hands, and we would let out a sigh of relief — and we felt proud. Not long after that, I hid in my Berlin room for the winter holidays, absorbing everything I could about pixels, HTML, and CSS pre-processing.
+There was a time when I would sit at my desk, anxiously waiting for the print shop’s agent to come in from the door holding a bunch of magazines, freshly printed covers and offset-smelling. He would put them in our hands, and we would let out a sigh of relief — and we felt proud.
 
-Here’s how I walked away from graphic design to start a career in tech.
+Not long after that, I hid in my Berlin room for the winter holidays, absorbing everything I could about version control, HTML, and CSS pre-processing. Here’s how I walked away from graphic design to start my career in tech.
 
 
-<p align="center">***</p>
+<p align="center" style="color: #cec9c0; margin-top: 25px; margin-bottom: 25px;">&smashp;&smashp;&smashp;</p>
 
 
 It was 2010 when I completed my second MA, this time in Book Design, at the Department of Typography in Reading, England. That autumn, on a taxi on my way to Gatwick, my degree stuffed somewhere in a suitcase — the publishing industry changed forever. The iPad wrecked the market, e-books became a thing, and when I returned to Italy I realized my hard-earned certification was just… _ancient_. An exquisitely obsolete piece of paper. I landed a graphic design job in Milan, at a tiny snazzy magazine called ZERO. In six months I was my most miserable self.

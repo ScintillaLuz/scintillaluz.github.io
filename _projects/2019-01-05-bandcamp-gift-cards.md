@@ -25,8 +25,6 @@ Instagram has been both my source of distraction and exposure to great independe
 
 Once we got all the illustrations in, we realised we missed a truly metal card, so I hit up yet another artist to complete the collection&hellip;
 
-<p style="font-size: 85%; color: #9c9c9b; margin-top: 30px; font-style: italic;">We commissioned a total of 12 illustrations, from the following artists: <a style="color: #9c9c9b; border-bottom: 1px solid #9c9c9b;" href="https://www.instagram.com/tomabbisssmithart/">Tom Abbiss Smith</a> (UK), <a style="color: #9c9c9b; border-bottom: 1px solid #9c9c9b;" href="https://www.instagram.com/elisamacellari/">Elisa Macellari</a> (Italy), <a style="color: #9c9c9b; border-bottom: 1px solid #9c9c9b;" href="https://www.instagram.com/gaurabthakali/?hl=en">Gaurab Thakali</a> (UK), <a style="color: #9c9c9b; border-bottom: 1px solid #9c9c9b;" href="https://www.instagram.com/camperksillustration/">Camilla Perkins</a> (UK), <a style="color: #9c9c9b; border-bottom: 1px solid #9c9c9b;" href="http://www.zansky.com.br/">Zansky</a> (Brasil), <a style="color: #9c9c9b; border-bottom: 1px solid #9c9c9b;" href="https://www.instagram.com/rayatheink/">R . A . Y . A.</a> (Indonesia)</p>
-
 <div class="gallery" data-columns="1" style="max-width:850px;">
 	<img src="/images/cards/00-bandcamp-gift-cards.jpg">
   <img src="/images/cards/01-abiss.jpg">
@@ -37,6 +35,7 @@ Once we got all the illustrations in, we realised we missed a truly metal card, 
   <img src="/images/cards/06-raya.jpg">
 </div>
 
+<p style="font-size: 85%; color: #9c9c9b; margin-top: 30px; font-style: italic;">We commissioned a total of 12 illustrations, from the following artists: <a style="color: #9c9c9b; border-bottom: 1px solid #9c9c9b;" href="https://www.instagram.com/tomabbisssmithart/">Tom Abbiss Smith</a> (UK), <a style="color: #9c9c9b; border-bottom: 1px solid #9c9c9b;" href="https://www.instagram.com/elisamacellari/">Elisa Macellari</a> (Italy), <a style="color: #9c9c9b; border-bottom: 1px solid #9c9c9b;" href="https://www.instagram.com/gaurabthakali/?hl=en">Gaurab Thakali</a> (UK), <a style="color: #9c9c9b; border-bottom: 1px solid #9c9c9b;" href="https://www.instagram.com/camperksillustration/">Camilla Perkins</a> (UK), <a style="color: #9c9c9b; border-bottom: 1px solid #9c9c9b;" href="http://www.zansky.com.br/">Zansky</a> (Brasil), <a style="color: #9c9c9b; border-bottom: 1px solid #9c9c9b;" href="https://www.instagram.com/rayatheink/">R . A . Y . A.</a> (Indonesia)</p>
 
 
 ### Project Management
@@ -46,13 +45,25 @@ For the gift cards, I began listing the feature's minimum requirements, and outl
 
 The tight deadline asked for a change in the way we worked. Leaving devs waiting until I would deliver a colossal spec inclusive of all the flows would have never gotten us online in time. We wanted the team to get started right away, modelling the underlying infrastructure first, and moving the frontend later.
 
-My proposed strategy:
 
-**First**, I’d break down the project into three main flows: gift card purchase, card redemption, and purchase with gift card balance. I would outline the main structural decisions for each flow, and pass it over to the devs. This would take minimal time, allowing the team to make top level decision right away.
+#### Implementation Strategy
 
-**Secondly,** I would get started with UX/UI design work for the first flow — the gift card purchase —, get approval and deliver specs and prototypes. Programmers would dig into details, while I moved onto the second module. When done with those specs, I would get started with the last flow. Since we defined the overall structure of the feature in the previous step, we had a good overview of the connections between the three main chunks of it. Working module by module would guarantee a fast pace.
+**1. Split the process into (3) blocks**
+* Blocks: 1) Gift card purchase, 2) Card redemption, 3) Gift card balance purchase.
+* Before doing any design work, I would outline of the general structural decisions for each block. These initial specs would answer questions such as _In which ways buyers will share the gift card?_ or _What would happen when a fan gets gift cards in different currencies?_
+* This blueprint would be passed onto to the engineers, so they could get started with infrastructure, and eventually come back with feedback about points of friction.
 
-**Lastly**, I decided to streamline the flow for buying a gift card, separating it from our regular purchase flow. The funnel for buying a card would be, and complete the purchase in no more than two steps. There would be no resuming a gift card purchase, and fans would not have to be bothered by items previously left in their cart. This had UX benefits — keeping the experience self-contained, and maintaining the focus of the user's intention.
+**2. Design & implement block by block**
+* I would treat each block as an independent sub-project, working on design solutions, getting approval and then submitting the specs for review and implementation.
+* Engineers would be able to attack the first block without waiting any longer.
+* Because we defined the general structure in the previous step, we had a good overview of the connections between the three main blocks of the feature.
+
+**3. Create a separate funnel for the gift card purchase**
+* Engineers would look into streamlining the the gift card purchase flow.
+* Separation ensured the gift card purchase would be completed in two steps maximum.
+* The goals were limiting drop offs and keeping the focus on the user’s original intention.<br/>
+
+
 
 
 ### User Experience / UI
