@@ -6,6 +6,8 @@ description: This page is a demo that shows everything you can do inside portfol
 featured_image: '/images/demo/demo-square.jpg'
 ---
 
+_**Filed under** Typography, Book Design, Illustration, Editorial Design, Branding_
+
 ![](/images/demo/demo-landscape.jpg)
 
 ## Demo content

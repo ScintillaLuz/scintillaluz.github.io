@@ -5,6 +5,7 @@ date: 2018-12-28 00:00:00
 description: This page is a demo that shows everything you can do inside portfolio and blog posts.
 featured_image: '/images/demo/demo-square.jpg'
 ---
+_**Filed under** Project Management, UX/UI, Branding, Frontend Development_
 
 ![](/images/demo/demo-landscape.jpg)
 

@@ -8,104 +8,54 @@ featured_image: '/images/demo/demo-square.jpg'
 
 _**Filed under** UX/UI, Art Direction, Project Management, User Testing_
 
-## Demo content
+#### What were we doing, and why?
 
-This page is a demo that shows everything you can do inside portfolio and blog posts.
+By the time I started the redesign, Bandcamp’s homepage was divided in seven sections, plus a fat footer. With more than 600,000 artists and 3,500 independent labels, the homepage represented the heart of our music discovery, tipping fans on where to look for the interesting stuff. The first section from the top hosted our weekly radio show – The Bandcamp Weekly. Following was a real time sales feed, then two sections with curated highlights. Quick reviews of new releases were combined with excerpts of longer articles from our blog. Below was the automated section with the top selling music. The discovery ended here, and the page continued promoting fans and a CTA for artists and buyers.
 
-We've included everything you need to create engaging posts about your work, and show off your case studies in a beautiful way.
+In 2016 the newly formed editorial team launched the Bandcamp Daily, an independent music publication on a mission to shine lights on the diverse world of Bandcamp’s artists. The magazine was forged as the fans' guide into <a target="_blank" href="https://www.nytimes.com/2016/08/20/arts/music/bandcamp-shopping-for-music.html">“one of the greatest underground-culture bazaars of our time”</a>. Ambitious and unconventional, completely free from the pressure of advertisement, the Daily now represented Bandcamp’s core values. The blog was archived, and more than half of the homepage was suddenly obsolete. The old structure was to be replaced with a showcase of the Daily's headlines.
 
-**Obviously,** we’ve styled up *all the basic* text formatting options [available in markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
-You can create lists:
+#### What was I asked to do?
 
-* Simple bulleted lists
-* Like this one
-* Are cool
+* Redesign the first half of our homepage, to fit a showcase of the Daily’s features.
+* Design the flow for populating the homepage with editorial content.
+* Design the dashboard for managing the homepage content's upload and organization.
 
-And:
 
-1. Numbered lists
-2. Like this other one
-3. Are great too
+### 1. Homepage Redesign
 
-You can also add blockquotes, which are shown at a larger width to help break up the layout and draw attention to key parts of your content:
+###### _The Previous Homepage_
 
-> “Simple can be harder than complex: You have to work hard to get your thinking clean to make it simple. But it’s worth it in the end because once you get there, you can move mountains.”
+The intention for the main banner was to fit three/four of our newest Daily headlines, together with the latest Weekly show. Editors and writers would be in charge of choosing the headlines for the day, and the order in which they would be shown.
 
-The theme also supports markdown tables:
+The Weekly would be automatically updated every Tuesday, taking the front spot on the day of its release. The following sections — highlights on new releases, links to music articles on our blog, and the app promo — needed to go away and be re-designed. Scrolling down, we wanted to continue promoting editorial content, showing a number of older Daily articles, previously featured in the top banner. From the top selling below, the page should have stayed the same.
 
-| Item                 | Author        | Supports tables? | Price |
-|----------------------|---------------|------------------|-------|
-| Duet Jekyll Theme    | Jekyll Themes | Yes              | $39   |
-| Index Jekyll Theme   | Jekyll Themes | Yes              | $39   |
-| Journal Jekyll Theme | Jekyll Themes | Yes              | $39   |
+<p style="font-size: 85%; color: #9c9c9b; margin-top: 30px; font-style: italic;">
+Here’s the first half of the former homepage (2016). I’ve highlighted the 4 sections that would be later redesigned, and what we were to substitute them with. <a href="https://www.dropbox.com/s/625kgbppyz692tp/Full%20Old%20Homepage.jpg?dl=0">See the image in full here.</a>
+</p>
 
-You can throw in some horizontal rules too:
-
----
-
-### Image galleries
-
-Here's a really neat custom feature we added – galleries:
-
-<div class="gallery" data-columns="3">
-	<img src="/images/demo/demo-portrait.jpg">
-	<img src="/images/demo/demo-landscape.jpg">
-	<img src="/images/demo/demo-square.jpg">
-	<img src="/images/demo/demo-landscape-2.jpg">
+<div class="gallery" data-columns="1" style="max-width:850px;">
+	<img src="/images/homepage/01-old-homepage.jpg">
+	<img src="/images/homepage/02-old-homepage.jpg">
 </div>
 
-<div class="gallery" data-columns="3" style="max-width: 80%;">
-	<img src="/images/demo/demo-portrait.jpg">
-	<img src="/images/demo/demo-landscape.jpg">
-	<img src="/images/demo/demo-square.jpg">
-	<img src="/images/demo/demo-landscape-2.jpg">
+#### The New Layout
+
+###### _The Carousel_
+
+The first step was to take the grid and repurpose it, making hierarchies clear at first sight. I submitted drafts for what we started to call _the carousel_ — the banner area above the fold. The proposals explored opposing approaches: animated vs static, interactive vs fixed. The common baseline was blowing up a single photograph to occupy the full width. The Daily would commission photo shoots, and we wanted the visual aspect to be leading.
+
+<div class="gallery" data-columns="2" style="max-width: 920px;">
+	<img src="/images/homepage/02-carousel-proposal.gif">
+	<img src="/images/homepage/04-carousel-proposal.gif">
+  <img src="/images/homepage/01-carousel-proposal.gif">
+	<img src="/images/homepage/03-carousel-proposal.gif">
 </div>
 
-Inspired by the Galleries feature from WordPress, we've made it easy to create grid layouts for your images. Just use a bit of simple HTML in your post to create a masonry grid image layout:
 
-```html
-<div class="gallery" data-columns="3">
-    <img src="/images/demo/demo-portrait.jpg">
-    <img src="/images/demo/demo-landscape.jpg">
-    <img src="/images/demo/demo-square.jpg">
-    <img src="/images/demo/demo-landscape-2.jpg">
-</div>
-```
+###### _The Daily News_
 
-*See what we did there? Code and syntax highlighting is built-in too!*
+Scrolling down, I adopted a _modular approach_. Older Daily news would be grouped into smaller cards, using the same grid of the “New and Notable” recommendations below. Introducing this section named “Bandcamp Daily”, would be a larger module linking to the Album of the Day review. Much more than just a collection of _you-might-have-missed-this_ articles, this should still tickle fans’ interest in our editorial curation.
 
-Change the number inside the 'columns' setting to create different types of gallery for all kinds of purposes. You can even click on each image to seamlessly enlarge it on the page.
 
----
-
-### Image carousels
-
-Here's another gallery with only one column, which creates a carousel slide-show instead.
-
-A nice little feature: the carousel only advances when it is in view, so your visitors won't scroll down to find it half way through your images.
-
-<div class="gallery" data-columns="1">
-	<img src="/images/demo/demo-landscape.jpg">
-	<img src="/images/demo/demo-landscape-2.jpg">
-</div>
-
-### What about videos?
-
-Videos are an awesome way to show off your work in a more engaging and personal way, and we’ve made sure they work great on our themes. Just paste an embed code from YouTube or Vimeo, and the theme makes sure it displays perfectly:
-
-<iframe src="https://player.vimeo.com/video/148003889" width="640" height="360" frameborder="0" allowfullscreen></iframe>
-
-<div class="video-wrap">
-<iframe style="border: none; margin: 0 auto; display:block;" width="960" height="750" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FbBl9Jd8cw8BDtgVWmcTsGtPJ%2FCC-in-the-app-%25E2%2580%2593-high-fidelity%3Fnode-id%3D12%253A31%26viewport%3D46%252C405%252C0.100671%26scaling%3Dscale-down" allowfullscreen></iframe>
-</div>
-
----
-
-## Pretty cool, huh?
-
-We've packed this theme with powerful features to show off your work.
-
-Why not put them to use on your new portfolio?
-
-<a href="https://jekyllthemes.io/theme/duet-portfolio-jekyll-theme" class="button button--large">Get This Theme</a>
+### 2. Admin interface
