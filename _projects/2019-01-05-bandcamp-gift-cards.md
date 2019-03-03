@@ -1,5 +1,5 @@
 ---
-title: 'The Gift of Music'
+title: 'Introducing Bandcamp digital gift cards'
 subtitle: 'Introducing Bandcamp’s Gift Cards'
 date: 2019-01-05 00:00:00
 description: This page is a demo that shows everything you can do inside portfolio and blog posts.

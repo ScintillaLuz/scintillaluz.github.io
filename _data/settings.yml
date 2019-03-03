@@ -74,16 +74,16 @@ color_settings:
   error_color: '#D64541'
 
 font_settings:
-  font_embed: '<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i" rel="stylesheet">'
-  title_font: '"PT Serif", serif'
-  body_font: '"PT Serif", serif'
+  font_embed: '<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i,800,800i" rel="stylesheet">'
+  title_font: '"Open Sans", sans-serif'
+  body_font: '"Open Sans", sans-serif'
   regular_weight: 400
   bold_weight: 700
   site_title:
     small_size: 25
     medium_size: 30
     large_size: 35
-    weight: 700
+    weight: 800
     letter_spacing: -0.02
   menu:
     small_size: 30
@@ -94,9 +94,9 @@ font_settings:
   grid_item_title:
     small_size: 22
     medium_size: 30
-    large_size: 35
-    weight: 700
-    letter_spacing: -0.02
+    large_size: 24
+    weight: 800
+    letter_spacing: 0
   grid_item_subtitle:
     small_size: 15
     medium_size: 17
@@ -107,7 +107,7 @@ font_settings:
     small_size: 25
     medium_size: 35
     large_size: 45
-    weight: 700
+    weight: 800
     letter_spacing: -0.02
     line_height: 1.2
   h2:

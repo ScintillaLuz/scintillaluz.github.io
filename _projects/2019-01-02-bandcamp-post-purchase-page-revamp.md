@@ -1,5 +1,5 @@
 ---
-title: 'Thank You for Your Order!'
+title: 'Building a scalable post-purchase experience '
 subtitle: 'Post Purchase Page Revamp'
 date: 2019-01-02 00:00:00
 description: This page is a demo that shows everything you can do inside portfolio and blog posts.
