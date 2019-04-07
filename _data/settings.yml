@@ -1,5 +1,5 @@
 basic_settings:
-  site_title: Valentina M.
+  site_title: V.M.
   favicon_image: /images/favicon.png
 
 header_settings:
@@ -14,13 +14,13 @@ menu_settings:
       url: '/blog/'
     - title: 'About me'
       url: '/about'
-    - title: 'Write me'
+    - title: 'Contacts'
       url: '/contact'
 
 footer_settings:
   logo_image:
   logo_width: 200
-  footer_tagline: I chose to be a designer because I wanted never to be bored.
+  footer_tagline: I chose to be a designer because I never wanted to be bored.
 
 grid_settings:
   overlay_opacity: 0.8
@@ -47,7 +47,7 @@ social_settings:
   apple_url: ''
   android_url: ''
   tumblr_url: ''
-  dribbble_url: 'http://dribbble.com/ScintillaLuz'
+  dribbble_url: ''
   behance_url: ''
   deviantart_url: ''
   github_url: ''
@@ -57,34 +57,34 @@ social_settings:
   kickstarter_url: ''
   soundcloud_url: ''
   spotify_url: ''
-  bandcamp_url: 'http://bandcamp.com/scintillaluz'
-  linkedin_url: 'https://www.linkedin.com/in/scintillaluz/'
+  bandcamp_url: ''
+  linkedin_url: ''
 
 color_settings:
   background_color: '#efece7'
   background_alt_color: '#f4f5f6'
   text_dark_color: '#333333'
   text_medium_color: '#333333'
-  text_light_color: '#cec9c0'
-  accent_color: '#8065ec'
+  text_light_color: '#9c9c9c'
+  accent_color: '#4d40db'
   border_color: '#dddddd'
-  overlay_background_color: '#8065ec'
+  overlay_background_color: '#333333'
   overlay_text_color: '#ffffff'
   overlay_accent_color: '#2A2F36'
   error_color: '#D64541'
 
 font_settings:
-  font_embed: '<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i,800,800i" rel="stylesheet">'
-  title_font: '"Open Sans", sans-serif'
-  body_font: '"Open Sans", sans-serif'
+  font_embed: '<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i" rel="stylesheet">'
+  title_font: '"PT Serif", serif'
+  body_font: '"PT Serif", serif'
   regular_weight: 400
   bold_weight: 700
   site_title:
     small_size: 25
-    medium_size: 30
-    large_size: 35
+    medium_size: 35
+    large_size: 45
     weight: 800
-    letter_spacing: -0.02
+    letter_spacing: 0
   menu:
     small_size: 30
     medium_size: 15
@@ -92,9 +92,9 @@ font_settings:
     weight: 700
     letter_spacing: 0
   grid_item_title:
-    small_size: 22
+    small_size: 30
     medium_size: 30
-    large_size: 24
+    large_size: 40
     weight: 800
     letter_spacing: 0
   grid_item_subtitle:

@@ -14,14 +14,23 @@
 	}
 
 	p {
+		font-size: 20px;
+	}
 
+	p a {
+		border-bottom: 1px solid transparent;
+		@include transition(all 0.2s ease-in-out);
+	}
+
+	p a:hover {
+		border-bottom: 1px solid $accent-color;
 	}
 }
 
 .content-wrap {
 
 	@include mq(tabletp) {
-		max-width: 90%;
+		max-width: 80%;
 		margin: 0 auto;
 	}
 }
@@ -93,7 +102,12 @@
 	}
 
 	p a {
-		font-weight: $regular-weight;
+		font-weight: $bold-weight;
+		border-bottom: 1px solid transparent;
+		@include transition(all 0.2s ease-in-out);
+	}
+
+	p a:hover {
 		border-bottom: 1px solid $accent-color;
 	}
 

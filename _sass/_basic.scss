@@ -18,6 +18,8 @@ body {
 	font-style: normal;
 	line-height: 1;
 	color: $text-medium-color;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 
@@ -196,7 +198,7 @@ blockquote {
 a {
 	text-decoration: none;
 	color: $accent-color;
-	font-weight: $regular-weight;
+	font-weight: $bold-weight;
 	@include transition(all 0.15s ease-in-out);
 
 	&:hover {

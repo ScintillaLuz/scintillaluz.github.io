@@ -1,15 +1,15 @@
 ---
 title: 'Introducing Bandcamp digital gift cards'
-subtitle: 'Introducing Bandcamp’s Gift Cards'
-date: 2019-01-05 00:00:00
+subtitle: ''
+date: 2019-01-03 00:00:00
 description: This page is a demo that shows everything you can do inside portfolio and blog posts.
-featured_image: '/images/demo/demo-square.jpg'
+featured_image: '/images/home-thumbs/aubergine.jpg'
 ---
 
 _**Filed under** UX/UI, Art Direction, Project Management, User Testing_
 
 #### What was the project about?
-Up until gift cards, selling has been exclusively limited to artists. For the first time, this was changing, and Bandcamp would start selling its own product to fans. The project’s brief detailed the complex accounting behind the scenes, and restricted the first version to digital cards only.
+Up until gift cards, selling has been exclusively reserved to artists. For the first time, this was changing, and Bandcamp would start selling its own product to fans. The project’s brief I received detailed the complex accounting behind the scenes, and restricted the first version to digital cards only.
 
 Revenues, payouts, and fraud prevention posed a challenge, but the idea “was well-known and simple”: folks would come to the site to buy a gift card for a friend or partner, the giftee would redeem the said card and spend their credit in music and merchandise. Launch was a few days before Christmas.
 

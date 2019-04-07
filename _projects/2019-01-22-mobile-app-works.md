@@ -1,9 +1,9 @@
 ---
-title: 'Oh My Phone!'
-subtitle: 'Adventures in App UX/UI'
+title: 'Adventures in a consumer app UX/UI'
+subtitle: ''
 date: 2019-01-04 00:00:00
 description: This page is a demo that shows everything you can do inside portfolio and blog posts.
-featured_image: '/images/demo/demo-square.jpg'
+featured_image: '/images/home-thumbs/orange.jpg'
 ---
 
 _**Filed under** UX/UI, User Research, User Testing_

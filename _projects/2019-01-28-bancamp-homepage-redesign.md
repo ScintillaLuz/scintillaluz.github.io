@@ -1,9 +1,9 @@
 ---
 title: 'New editorial workflow & layout for Bandcamp’s homepage'
-subtitle: 'Bandcamp’s Homepage Redesign'
-date: 2019-01-03 00:00:00
+subtitle: ''
+date: 2019-01-05 00:00:00
 description: This page is a demo that shows everything you can do inside portfolio and blog posts.
-featured_image: '/images/demo/demo-square.jpg'
+featured_image: '/images/home-thumbs/homepage_thumb.jpg'
 ---
 
 _**Filed under** UX/UI, Art Direction, Project Management, User Testing_
