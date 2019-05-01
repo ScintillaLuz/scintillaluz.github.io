@@ -3,7 +3,7 @@ title: 'Creating Isoverse, a (smart) portfolio system'
 subtitle: ''
 date: 2018-12-28 00:00:00
 description: This page is a demo that shows everything you can do inside portfolio and blog posts.
-featured_image: '/images/home-thumbs/navy.jpg'
+featured_image: '/images/home-thumbs/aubergine.jpg'
 ---
 _**Filed under** Project Management, UX/UI, Branding, Frontend Development_
 

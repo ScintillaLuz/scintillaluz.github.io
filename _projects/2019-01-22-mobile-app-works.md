@@ -3,7 +3,7 @@ title: 'Adventures in a consumer app UX/UI'
 subtitle: ''
 date: 2019-01-04 00:00:00
 description: This page is a demo that shows everything you can do inside portfolio and blog posts.
-featured_image: '/images/home-thumbs/orange.jpg'
+featured_image: '/images/home-thumbs/mobile_app_thumb.jpg'
 ---
 
 _**Filed under** UX/UI, User Research, User Testing_
