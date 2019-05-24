@@ -1,9 +1,9 @@
 ---
-title: 'Graphic design works 2004-2018'
+title: 'Graphic design 2004-2018'
 subtitle: ''
 date: 2018-12-26 00:00:00
 description: This page is a demo that shows everything you can do inside portfolio and blog posts.
-featured_image: '/images/home-thumbs/violet.jpg'
+featured_image: '/images/home-thumbs/graphic_design_thumb.jpg'
 ---
 
 _**Filed under** Typography, Book Design, Illustration, Editorial Design, Branding_

@@ -1,7 +1,7 @@
 ---
-title: 'New editorial workflow & layout for Bandcamp’s homepage'
+title: 'Content flow and layout for Bandcamp’s new home'
 subtitle: ''
-date: 2019-01-05 00:00:00
+date: 2019-01-28 00:00:00
 description: This page is a demo that shows everything you can do inside portfolio and blog posts.
 featured_image: '/images/home-thumbs/homepage_thumb.jpg'
 ---
