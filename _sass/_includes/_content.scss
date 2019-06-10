@@ -216,6 +216,7 @@
 
 	@include mq(laptop) {
 		margin: 40px auto;
+		max-width: 1024px;
 	}
 
 	&:first-child {

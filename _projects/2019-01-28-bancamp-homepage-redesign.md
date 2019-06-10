@@ -11,95 +11,84 @@ _**Filed under** UX/UI, Art Direction, Project Management, User Testing_
 
 #### What were we doing, and why?
 
-By the time I started the redesign, Bandcamp’s homepage was divided in seven sections, plus a fat footer. With more than 600,000 artists and 3,500 independent labels, the homepage represented the heart of our music discovery, tipping fans on where to look for the interesting stuff. The first section from the top hosted our weekly radio show – The Bandcamp Weekly. Following was a real time sales feed, then two sections with curated highlights. Quick reviews of new releases were combined with excerpts of longer articles from our blog. Below was the automated section with the top selling music. The discovery ended here, and the page continued promoting fans and a CTA for artists and buyers.
+It was 2016, and our brand new editorial team was launching the _Daily_, *Bandcamp’s own independent music publication*. Mission of the magazine was to shed a light on the diverse world of Bandcamp’s artists, guiding fans through <a target="_blank" href="https://www.nytimes.com/2016/08/20/arts/music/bandcamp-shopping-for-music.html">“one of the greatest underground-culture bazaars of our time”</a>.
 
-In 2016 the newly formed editorial team launched the Bandcamp Daily, an independent music publication on a mission to shine lights on the diverse world of Bandcamp’s artists. The magazine was forged as the fans' guide into <a target="_blank" href="https://www.nytimes.com/2016/08/20/arts/music/bandcamp-shopping-for-music.html">“one of the greatest underground-culture bazaars of our
-time”</a>. Ambitious and unconventional, free from the pressure of relying on advertisement, the Daily represented Bandcamp’s core values to the outside world. Once we archived the blog, more than half of the homepage was suddenly obsolete. Daily’s headlines would take its place, as the opener of our most important landing page.
+Up until the _Daily_ was born, the homepage represented Bandcamp’s main display window. *_With more than 600,000 artist sites, the homepage has been the compass of Bandcamp’s music discovery, tipping fans on where to look for the interesting stuff_*. Now that the _Daily_ was to lead in curating recommendations, it had to find its place on the homepage. Bandcamp’s home was due for a revamp.
 
 
 #### What was I asked to do?
 
-* Redesign the first half of our homepage, to fit a showcase of the Daily’s features.
-* Design the flow for populating the homepage with editorial content.
-* Design the dashboard for managing the homepage content's upload and organization.
+* Redesign the first half of our homepage, to fit a showcase of the _Daily_’s features.
+* Design the flow for populating the homepage with editorial’s content.
+* Design the internal dashboard to manage content’s upload for the homepage.
 
 
 ### Homepage Redesign
 
-###### _The Previous Homepage_
+#### Old Home, New Plan
 
-The intention for the main banner was to fit three/four of our newest Daily headlines, together with the latest Weekly show. Editors and writers would be in charge of choosing the headlines for the day, and the order in which they would be shown.
+By the time I got assigned its redesign, Bandcamp’s homepage was divided in 7 sections, plus a fat footer. The first two thirds of the page were dedicated to _music discovery_, opening with a large full-width banner hosting the latest episode of our radio show, _The Bandcamp Weekly_. Following were a combination of smaller sections, offering different ways to browse, filter, and dig to find them music gems they’ve been looking for. Believing in user conversion through purchase, the CTAs for sign up were deprioritized, lining up at the very bottom of the page.
 
-The Weekly would be automatically updated every Tuesday, taking the front spot on the day of its release. The following sections — highlights on new releases, links to music articles on our blog, and the app promo — needed to go away and be re-designed. Scrolling down, we wanted to continue promoting editorial content, showing a number of older Daily articles, previously featured in the
-top banner. From the top selling below, the page should have stayed the same.
+[GIFS old home]
 
-<div class="gallery" data-columns="1" style="max-width:920px;">
-	<img src="/images/homepage/01-old-homepage.jpg">
-	<img src="/images/homepage/02-old-homepage.jpg">
+
+#### Step One, Above The Fold
+
+Before anything, I worked on the full-width banner to repurposed it. From the brief, it was to fit three or more _Daily_ headline, and the current Weekly episode. I started playing with big headlines on flat-coloured backgrounds, animated slideshows, and tiled grids. We called this module *_the carousel_*. My soft spot was for galleries with bright colours and full blown photographs, but considering mobile web performances we opted for a static carousel. The proposal that made the cut had no slideshow, with images arranged in a tiled layout. The mobile version used a nifty swiping pattern to scroll secondary headlines, maximizing the horizontal space with a catchy gesture.
+
+<p style="font-size: 94%; color: #777777; margin-top: 30px;"><strong>Two proposals that we decided to archive</strong>. Good balance in the layout, but fat slideshows make for long loading times... often times boring users.</p>
+
+[IMGs]
+
+
+<p style="font-size: 94%; color: #777777; margin-top: 30px;"><strong>The final carousel</strong>. It’s not only a matter of performances. In this version, the layout’s hierarchy better supports the concept of highlighting an individual story. The main spot would host the most important feature of the day, with two of the smaller tiles dedicated to additional articles. A new episode of the Weekly would be featured every Tuesday morning PST, taking over the principal slot for the day.</p>
+
+[IMGs]
+
+
+#### Step Two, _Daily_  Recent News
+
+The sales strip kept its current place, while we introduced the _Daily_ showcase right below it. Replacing two rows of album reviews and blog entry blurbs, this new section was intended to collect stories previously hosted in the _carousel_. Not all the content from the former layout was to be dismissed. Wrapped up in their own “New and Notable” section, the crispy three-sentences album review would be now owned and written by the editorial team.
+
+On desktop I inherited a solid grid system, with overlaying 12 / 15 / 16 columns. I’ve designed both the _Daily_ news archive and the _New and Notable_ around a x15. The archive opener was a daily standard column called *Album Of the Day* – an original bit that was worth assigning a larger module to. Taking a cue from The Guardian’s homepage, I hid even more cards behind a toggle. The mobile version saw the _Album Of the Day_ expanding full width, presenting visitors a nice sequence of fresh content, before hitting older stories.
+
+<p style="font-family: 'PT Sans', sans-serif; font-size: 98%; color: #888888; margin-top: 30px;"><strong>Structure brings on creativity</strong>. Playing with modules is pure design fun. Among several good candidates, we settled for the cleanest combination.</p>
+
+
+#### Final Design
+
+Check out this layout live on <a href="https://bandcamp.com">bandcamp.com</a>
+
+
+> Presenting editorial content on the homepage was a visual design problem: grids, rhythm, whitespace balance. But solving how said content would dynamically flow into the page? That was UX design.
+
+
+### Behind the Scenes
+
+With the layout revamp came the request to work on a **custom content management solution for publishing editorial stories on the homepage**. Problems included:
+
+* How content from the _Daily_ would be uploaded/selected/featured in the carousel.
+* How editors would promote/demote a specific story in the main carousel spot.
+* How/where the Weekly episode would be published on the carousel
+* How Weekly and _Daily_ content in the carousel would interact.
+* How carousel _Daily_ stories would move to the archival section below.
+* How the Album of the Day would be updated, and where previous instances would show.
+
+The three types of editorial stories — _Daily_ features, Weekly episodes, Album of the Day reviews — required different approaches. The Weekly was supposed to update automatically, as well as the Album of the Day. Editors wanted maximum flexibility for featuring and promoting content in the carousel – favouring a manual solution. Carousel older stories should then automatically be poured into the archival cards below.
+
+I took these requirements and came up with a set of rules that combined automated and manual behaviors, designing a simple (proprietary) CMS system.
+
+
+
+
+### Search Autocomplete (a two days hack)
+
+Every year Bandcamp’s distributed team comes together to spend a week catching up, *in real life*. Usually working from our home offices, we get the chance to discover who’s actually very tall, and break the video chat habits. In 2017 me and Alexandra Hindley (Labels’ engineering lead) took over a 48-hours mini project, implementing a first version of an autocomplete in the homepage search bar.
+
+<p style="font-size: 94%; color: #777777; margin-top: 30px;"><span style="color: #333333; font-weight: bold;">1.</span> Searching for a generic word. <span style="color: #333333; font-weight: bold;">2.</span> Searching for a keyword matching a music genre. The autocomplete returns a shortcut to the tag page, and a list of related tags/genres. – <span style="color: #333333;">
+click on the images to enlarge</span></p>
+
+<div class="gallery" data-columns="2">
+	<img src="/images/homepage/autocomplete-01.gif">
+	<img src="/images/homepage/autocomplete-02.gif">
 </div>
-
-<p style="font-size: 85%; color: #9c9c9b; margin-top: 30px; margin-bottom: 50px; font-style: italic;"> Here’s the first half of the former homepage (2016). I’ve highlighted the 4 sections that would be later redesigned, and what we were to substitute them with. <a href="https://www.dropbox.com/s/625kgbppyz692tp/Full%20Old%20Homepage.jpg?dl=0">See the image in full here.</a>
-</p>
-
-
-#### The "Carousel"
-
-The first step was to take the grid and repurpose it, making hierarchies clear at first sight. I submitted drafts for what we started to call _**the carousel**_ — the banner area above the fold. The proposals explored opposing approaches: animated vs static, interactive vs fixed. The stylistic trait in common was to blow up a single photograph to occupy the full width. The Daily would commission photo shoots, and we wanted the visual aspect to be leading.
-
-<br>
-
-###### _Early Proposals_
-
-Following my usual workflow, I went through a series of iterations, to present the proposals I believed in the most. Trying to define a visual language that would speak to our audience, I played with big headlines on flat-colored backgrounds, and a centered aligned slideshow. These two series of mockups did not make the cut.
-
-
-
-<p style="font-size: 85%; color: #9c9c9b; margin-top: 30px; font-style: italic;">I really loved both these versions, but fat slideshows with big pictures are not always the right answer (read: performances and engagement.)</a>
-</p>
-
-
-
-###### _Chosen Carousel Layout_
-
-<div class="gallery" data-columns="3" style="max-width: 1024px;">
-	<img src="/images/homepage/01-carousel-mobile.jpg">
-	<img src="/images/homepage/02-carousel-mobile.jpg">
-  <img src="/images/homepage/01-carousel-desktop.jpg">
-	<img src="/images/homepage/02-carousel-desktop.jpg">
-	<img src="/images/homepage/03-carousel-desktop.jpg">
-	<img src="/images/homepage/04-carousel-desktop.jpg">
-</div>
-
-<p style="font-size: 85%; color: #9c9c9b; margin-top: 30px; font-style: italic;">caption</a>
-</p>
-
-#### Other Daily News, New & Notable
-
-Scrolling down, I adopted a _modular approach_. Older Daily news would be grouped into smaller cards, using the same grid of the “New and Notable” recommendations below. Introducing this section named “Bandcamp Daily”, would be a larger module linking to the Album of the Day review. Much more than just a collection of _you-might-have-missed-this_ articles, this should still tickle fans’ interest in our editorial curation.
-
-![](/images/homepage/01-daily-news.jpg)
-
-#### The Final Design
-
-<div class="gallery" data-columns="1" style="max-width:920px;">
-	<img src="/images/homepage/01-full-new-homepage.jpg">
-	<img src="/images/homepage/02-full-new-homepage.jpg">
-</div>
-
-#### Autocomplete
-
-###### _A Two Days Hack_
-
-Every year Bandcamp’s distributed team come together to spend a week catching up, IRL style. Usually working from our home offices, we get the chance to discover who’s actually very tall, and break the video chat habits. At 2017's The Gathering me and Alexandra Hindley — lead developer for the Music Labels team — took over a 48-hours mini project, bringing autocomplete in the search bar to life. Alex on the backend, and me on UI design and front-end, we shipped the last detail of the Homepage redesign.
-
-<div class="gallery" data-columns="1" style="max-width:920px;">
-	<img src="/images/homepage/01-full-new-homepage.jpg">
-	<img src="/images/homepage/02-full-new-homepage.jpg">
-</div>
-
-
-### Admin Dashboard
-
-###### _Editors Workflow Explained_
-
-###### _Content Flow_
