@@ -98,12 +98,17 @@ h4, .h4 {
 	}
 }
 
+h4 {
+	font-style: italic;
+}
+
 h5, .h5 {
 	margin-top: 15px;
 	font-size: $h5-small;
 	font-weight: $h5-weight;
 	line-height: $h5-lineheight;
 	letter-spacing: $h5-spacing;
+	font-style: italic;
 
 	@include mq(tabletp) {
 		font-size: $h5-medium;
@@ -156,6 +161,11 @@ p, ul, ol {
 
 ul, ol {
 	list-style-position: inside;
+}
+
+ul li > ul {
+	margin: 0;
+	padding: 0;
 }
 
 blockquote {
@@ -405,6 +415,6 @@ section.single {
 	}
 
 	@include mq(laptop) {
-		max-width: 60%;
+		max-width: 860px;
 	}
 }

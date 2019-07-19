@@ -55,9 +55,21 @@
 		}
 
 		@include mq(laptop) {
-			max-width: 60%;
+			// max-width: 60%;
+			max-width: 860px;
 		}
 	}
+
+	// Resetting sane styling for nested lists
+	ul li > ul {
+		max-width: 100%;
+		margin: 0 0 0 1.2em;
+	}
+
+	ul li > ul li {
+		list-style-type: disc;
+	}
+	// end
 
 	hr {
 		margin: 30px auto;
