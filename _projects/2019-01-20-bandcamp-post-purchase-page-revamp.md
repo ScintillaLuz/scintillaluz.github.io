@@ -20,14 +20,14 @@ At the end of 2015 I was busy introducing credit card payments next to PayPal, u
 * Redesign the post purchase experience for mobile web, desktop, and the fan app.
 * Create layout and logic that would make the post purchase page **scalable in two ways**:
   * In itself, going from single item purchases to large carts with a complex mix of items.
-  * For when we’d new types of items would be available for purchase (ex: gift cards.)
+  * For when new types of items would be available for purchase (ex: gift cards.)
 * **Focus the communication on streaming**, nudging users to install our listening app.
 
 
 
 ## Preliminary Work
 
-Before desining, there’s research. First steps were:
+Before design, there’s research. First steps were:
 1. Establishing user needs, to define the scope of the redesign.
 2. Defining what a successful design would do, for business needs.
 3. Analyzing the current PPPs, and their shortcomings.
@@ -42,7 +42,7 @@ After clarifying what the page *should do*, I took screenshots of the current PP
 
 ## Designing for Scalability
 
-The number of PPP cases and their characteristics depends also on the range/nature of the items sold. Before diving into UX details, I want to answer the question: ***which items artists can sell on Bandcamp?***
+The number of PPP cases and their characteristics depends also on the range/nature of the items sold. Before diving into UX details, I wanted to answer the question: ***which items artists can sell on Bandcamp?***
 
 <div class="gallery" data-columns="1" style="max-width: 860px;">
 	<img src="/images/ppp/02-type-of-items-sold.jpg">

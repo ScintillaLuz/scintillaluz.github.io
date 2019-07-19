@@ -11,7 +11,7 @@ _**Filed under** UX/UI, Art Direction, Project Management, User Testing_
 #### What was the project about?
 Up until gift cards, selling has been exclusively reserved to artists. For the first time, this was changing, and Bandcamp would start selling its own product to fans. The project’s brief I received detailed the complex accounting behind the scenes, and restricted the first version to digital cards only.
 
-Revenues, payouts, and fraud prevention posed a challenge, but the idea “was well-known and simple”: folks would come to the site to buy a gift card for a friend or partner, the giftee would redeem the said card and spend their credit in music and merchandise. Launch was a few days before Christmas.
+Revenues, payouts, and fraud prevention posed a challenge, but the idea was “well-known and simple”: folks would come to the site to buy a gift card for a friend or partner, the giftee would redeem the said card and spend their credit in music and merchandise. Launch was a few days before Christmas.
 
 
 #### What was I asked to do?
@@ -24,7 +24,7 @@ Revenues, payouts, and fraud prevention posed a challenge, but the idea “was w
 ## Art Direction
 We wanted to commission original artworks for the cards, and having them work on the subject of music listening / music genres. I gathered some names looking at my Instagram illustration saves, and reached out to started a collaboration.
 
-**The brief was to create a design that would feel like a pattern, but in an organic without, without using a strict grid.** Each of them had to come up with two illustrations, one with darker tones, and one with ligther ones. I suggested a couple of different musical moods and genres to each, trying to align with what I feel was their style.
+**The brief was to create a design that would feel like a pattern, but in an organic way, without using a strict grid.** Each of them had to come up with two illustrations, one with darker tones, and one with ligther ones. I suggested a couple of different musical moods and genres to each, trying to align with what I feel was their style.
 
 We ended up with 12 illustrations (guess which one was the metal one!):
 
@@ -83,7 +83,7 @@ My proposal was:
 * Since we defined the general structure in the previous step, we had a good overview of the connections between the three main blocks of the feature.
 
 **3. Creating a separate funnel for the gift card purchase**
-* Engineers would look into streamlining the the gift card purchase flow.
+* Engineers would look into streamlining the gift card purchase flow.
 * Separation ensured the gift card purchase would be completed in two steps maximum.
 * The goals were limiting drop offs and keeping the focus on the user’s original intention.
 
@@ -101,7 +101,7 @@ Engineers had to evaluate how to separate the gift card purchase from the main p
 
 ### The Purchase Page
 
-The first step was designing a Bandcamp Gift Cards purchase page. Placed in the Bandcamp’s branded pages section of the site, the page would be linked from the in the header (during the holidays) and in the footer (all year round.)
+The first step was designing a Bandcamp Gift Cards purchase page. Placed in the Bandcamp’s branded pages section of the site, the page would be linked from the header (during the holidays) and in the footer (all year round.)
 
 <p style="font-size: 94%; color: #777777; margin-top: 35px; font-style: italic;"> Final design for the Bandcamp Gift Cards purchase page, desktop and mobile web. Note: considering the deadline, we decided not to offer gift cards through the app.</p>
 

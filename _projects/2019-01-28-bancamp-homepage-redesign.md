@@ -30,9 +30,7 @@ Up until the *Daily* was born, the homepage represented Bandcamp’s main displa
 
 ### Old Home, New Plan
 
-By the time I got assigned its redesign, Bandcamp’s homepage was divided in 7 sections, and a footer. The first two thirds of the page were dedicated to **music discovery**, opening with a large full-width banner hosting the latest episode of our radio show, *The Bandcamp Weekly*. Following were a combination of smaller sections, offering different ways to browse, filter, and dig to find them music gems they’ve been looking for. Believing in user conversion through purchase, the CTAs for sign up were considered secondary to the discovery, and lined up at the very bottom of the page.
-
-[GIFS old home]
+By the time I got assigned its redesign, Bandcamp’s homepage was divided in 7 sections, and a footer. The first two thirds of the page were dedicated to **music discovery**, opening with a large full-width banner hosting the latest episode of our radio show, *The Bandcamp Weekly*. Following there was a combination of smaller sections, offering different ways to browse, filter, and dig to find them music gems they’ve been looking for. Believing in user conversion through purchase, the CTAs for sign up were considered secondary to the discovery, and lined up at the very bottom of the page.
 
 
 
