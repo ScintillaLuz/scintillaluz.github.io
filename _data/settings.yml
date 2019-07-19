@@ -68,8 +68,8 @@ color_settings:
   text_light_color: '#9c9c9c'
   accent_color: '#4d40db'
   border_color: '#dddddd'
-  overlay_background_color: '#333333'
-  overlay_text_color: '#ffffff'
+  overlay_background_color: '#efece7'
+  overlay_text_color: '#4d40db'
   overlay_accent_color: '#2A2F36'
   error_color: '#D64541'
 

@@ -177,7 +177,7 @@
 .menu__list {
 	list-style: none;
 	margin: 0 auto;
-	padding: 30px;
+	padding: 60px 30px 30px;
 
 	@include mq(tabletp) {
 		padding: 40px 0 0;

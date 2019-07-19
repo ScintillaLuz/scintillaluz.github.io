@@ -9,14 +9,15 @@
 }
 
 .portfolio-wrap {
-
+	margin: 0 auto;
+	max-width: 1600px;
 }
 
 .portfolio-item {
 	position: relative;
 	// padding: $grid-spacing/2;
 	padding: 1px;
-	float: left;
+	// float: left;
 	width: 100%;
 
 	@include mq(tabletl) {
@@ -63,11 +64,14 @@
 }
 
 .portfolio-item__info {
+	margin-right: 20px;
 	text-align: left;
 	position: absolute;
-	top: 20px;
+	top: 15px;
 	left: 20px;
-	margin-right: 30%;
+	@include mq(laptop) {
+		margin-right: 30%;
+	}
 }
 
 .portfolio-item__title {
