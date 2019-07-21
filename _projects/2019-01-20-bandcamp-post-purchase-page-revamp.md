@@ -11,15 +11,15 @@ _**Filed under** UX/UI (Desktop, Mobile, App), User Testing_
 
 #### What were we doing, and why?
 
-At the end of 2015 I was busy introducing credit card payments next to PayPal, up until then the only payment system available. Restructuring the purchase flow, I took a stab at improving the page where buyers would land after they complete their purchase.
+At the end of 2015 I was busy introducing credit card payments. Up until then the only payment system available was PayPal. Restructuring the purchase flow, I took a stab at improving the page where buyers would land after they complete their purchase.
 
-**The post purchase page**—**PPP, informally**—was not designed around a grid, and wasn’t visually consistent across platforms. I discussed the opportunity to make the PPP redesign its own project with lead designer. He supported the decision telling me “this is Bandcamp’s most important page.” “No pressure!” could have been a timely response, but I do love a design challenge.
+**The post purchase page**—**PPP, informally**—was not designed around a grid, and wasn’t visually consistent across platforms. I discussed the opportunity to make the PPP redesign its own project with the design manager. He supported the decision telling me “this is Bandcamp’s most important page.” “No pressure!” could have been a timely response, but I do love a design challenge.
 
 #### What was I asked to do?
 
 * Redesign the post purchase experience for mobile web, desktop, and the fan app.
 * Create layout and logic that would make the post purchase page **scalable in two ways**:
-  * In itself, going from single item purchases to large carts with a complex mix of items.
+  * In itself, going from single item purchases to large shopping carts with a complex mix of items.
   * For when new types of items would be available for purchase (ex: gift cards.)
 * **Focus the communication on streaming**, nudging users to install our listening app.
 
@@ -42,15 +42,15 @@ After clarifying what the page *should do*, I took screenshots of the current PP
 
 ## Designing for Scalability
 
-The number of PPP cases and their characteristics depends also on the range/nature of the items sold. Before diving into UX details, I wanted to answer the question: ***which items artists can sell on Bandcamp?***
+The number of PPP cases and their characteristics depends also on the nature of the items sold. Before diving into UX details, I wanted to answer the question: ***what are all the items artists can sell on Bandcamp?***
 
 <div class="gallery" data-columns="1" style="max-width: 860px;">
 	<img src="/images/ppp/02-type-of-items-sold.jpg">
 </div>
 
-With this in mind, and the cases inventory at hands, I started working on ***information architecture***.
+With this in mind, and the cases inventory at hands, I started working on the ***information architecture***.
 
-Only a very small percentage of purchases belonged to carts, I started with single item purchases, and made them the baseline. The idea was to discover recurring patterns among cases, and turn them into logic/visual modules in the new design.
+Only a very small percentage of purchases belonged to carts, I started with single item purchases, and made them the baseline. The idea was to discover recurring patterns among cases, and turn them into logical/visual modules in the new design.
 
 <p style="font-size: 94%; color: #777777; margin-top: 35px; font-style: italic;"><span style="color: #333333;"><strong>Information architecture, single purchase cases tree. </strong></span> Left column: the common patterns I identified; right: ramifications of the cases. The animation highlights the patterns’ distribution among the cases.</p>
 
@@ -74,17 +74,17 @@ The purchase experience was shaped by a number of attributes:
 
 Also important to consider:
 
-* **Bandcamp allowed guest checkouts**, but we still wanted to encourage signing up on the PPP.
+* **Bandcamp allowed guest checkouts**, but we still wanted to encourage account sign up on the PPP.
 * **Users were mostly buying from a personal computer.**
 * Permutations on the PPP added up to about 150, but **carts were a minority case.**
 
-Seeing the last point, I started to **design the single purchase layout**, and work later on carts as its extension. I set off re-arranging elements on the page to a **clearer hierarchy**, and changing proportions accordingly. I made streaming promo and purchase thumbnail the focus of the new layout.
+Seeing the last point, I started to **design the single purchase layout**, and work later on carts as its extension. I set off re-arranging elements on the page to a **clearer hierarchy**, and changing proportions accordingly. I made the streaming promo and purchase thumbnail the focus of the new layout.
 
 
 
 ### Single Purchase Layout
 
-The final design was organized differently on different platforms, but all layouts followed the idea of a highly hierarchical page, and shared the same visual language. By management’s request, the desktop re-design would change focus and promote streaming in the app, downplaying files download.
+The final design was organized differently on different platforms, but all layouts followed the idea of a hierarchical page, and shared the same visual language. Later, by management’s request, the desktop re-design would change focus and promote streaming in the app, while downplaying file downloads.
 
 Design for the single purchase of a logged-in fan would become the foundation of all the following cases.
 
@@ -148,19 +148,19 @@ In the old layout, a graphic element was sometimes added to the thumbnail: a pre
 
 #### Download Options
 
-Download is just... download, right? Actually, downloading is not necessary straightforward:
+A download is just a... download, right? Actually, downloading is not necessarily straightforward:
 1. On *desktop*, users would get to pick a format before getting their tracks in a .zip
-2. On *mobile web*, download was either not allowed (iOS), or confusing even for tech savy users (Android)
+2. On *mobile web*, downloading was either not allowed (iOS), or confusing even for tech savy users (Android)
 
 **Desktop solution:**
 * On their first purchase, users would get a generic “download” button
-* Format options would be grouped based on
-* After chosing, the format preference was saved for the next purchase
+* Format options would be grouped based on fidelity
+* After choosing, the format preference was saved for the next purchase
 
 ![](/images/ppp/27-desktop-download-GIF.gif)
 
 **Mobile web solutions:**
-* With phones not supporting reliably download, the fastest way to listen was signing up
+* With phones not reliably supporting downloads, the fastest way to listen was creating an account
 * The alternative was downloading on a computer, and then transferring to the phone. With this in mind:
   * I re-wrote instructions on transferring files to a phone (iOS vs Android)
   * I corrected Android instruction for users who wanted to try downloading anyway
@@ -183,11 +183,11 @@ The last case was the *Full Discography*, a package including multiple downloads
 
 **To make sense of carts, I went back thinking on the item’s type**. Instead of grouping items by digital vs physical vs digital+physical, I defined similarities by looking at what was the primary need. What did I know that could help me categorize the different items in a cart?
 * Digital items would all be available for streaming. The message was the same.
-* Digital items would come with a download (taking me back to the discography’s layout.)
-* Merch items had an estimated delivery time, and possibly options for size/colon/quantity.
-* On the buyer’s side, gifts never had a download, but would mention email/physical address of the giftee.
+* Digital items would come with a download (taking me back to the discography’s layout).
+* Merch items had an estimated delivery time, and possibly options for size/color/quantity.
+* On the buyer’s side, gifts never had a download, but would mention the email and physical address of the giftee.
 
-With this in mind I ended up with a **three sections page**:
+With this in mind I ended up with a **page with three sections**:
 1. **Digital releases**: similar to a discography, with a button toggling the full list of downloads.
 2. **Physical orders**: listing only ETAs and other meaningful info.
 3. **Gifts**: both digital and physical.
@@ -210,6 +210,6 @@ In the final cart design, ***all the possible cart combinations would generate o
 ## Conclusions
 
 * After the launch we recorderd a significant increase in app installs
-* As of today, the PPP remains the first place they get to know about our apps
+* As of today, the PPP remains the first place fans get to know about our apps
 * Later we introduced two other types of items for purchase, without changing anything in this design
-* On the other hand... **desktop users wanted to see the download first**. The streaming message was important communication for us, but not a priority for fans. The plan is to go back fixing the issue, honoring real users’ needs first.
+* On the other hand… **desktop users wanted to see the download first**. The streaming message was important communication for us, but not a priority for fans. The plan is to go back and reexamine the issue, honoring real users’ needs first.
