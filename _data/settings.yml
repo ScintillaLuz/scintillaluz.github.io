@@ -20,7 +20,7 @@ menu_settings:
 footer_settings:
   logo_image:
   logo_width: 200
-  footer_tagline: I became a designer because I wanted never to be bored.
+  footer_tagline:
 
 grid_settings:
   overlay_opacity: 0.8
