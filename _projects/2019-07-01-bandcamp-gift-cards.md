@@ -1,7 +1,7 @@
 ---
-title: 'Launching Bandcamp’s digital gift cards'
+title: 'Launching Bandcamp’s digital Gift Cards'
 subtitle: ''
-date: 2019-01-02 00:00:00
+date: 2019-07-01 00:00:00
 description: Introducing digital gift cards on Bandcamp
 featured_image: '/images/home-thumbs/gift_cards_thumb.jpg'
 ---
@@ -103,10 +103,10 @@ Engineers had to evaluate how to separate the gift card purchase from the main p
 
 The first step was designing a Bandcamp Gift Cards purchase page. Placed in the Bandcamp’s branded pages section of the site, the page would be linked from the header (during the holidays) and in the footer (all year round.)
 
-<p style="font-size: 94%; color: #777777; margin-top: 35px; font-style: italic;"> Final design for the Bandcamp Gift Cards purchase page, desktop and mobile web. Note: considering the deadline, we decided not to offer gift cards through the app.</p>
+<p style="font-size: 94%; color: #777777; margin-top: 35px; font-style: italic;"><span style="color: #333333;"><strong>Final design for the Bandcamp Gift Cards purchase page.</strong></span> A note about GC in the apps: the original plan didn’t include the GC purchase through our apps. Redemption and spending the gift credit were weighted, but the tight deadline cut on that implementation too.</p>
 
 <div class="gallery" data-columns="1" style="max-width: 1200px;">
-	<img src="/images/cards/10-gift-card-page.jpg">
+	<img src="/images/cards/08-gift-card-page.jpg">
 </div>
 
 
@@ -120,21 +120,23 @@ To support that, I decided for:
 * No “add to cart” functionality for GC, only one “Buy Now” button.
 * Allowing guest checkouts like elsewhere on Bandcamp, and avoiding sign up form drop offs.
 
-These preliminary decisions greatly simplified the GC purchase flow. The only attribute we carried over to this new, separate GC checkout was the ***payment method preference***. In 2016, with the introduction of credit card purchases, we silently saved users (last) payment method choice. On their next purchase, users (registered and unregistered alike), would be either wired to PayPal or the credit card form based on that preference. Considering this, I identified **4 distinct gift card purchase flows**:
+These preliminary decisions greatly simplified the GC purchase flow.
+
+**The only attribute we carried over to this new, separate GC checkout was the payment method preference**. In 2016, with the introduction of credit card purchases, we silently saved users (last) payment method choice. On their next purchase, users (registered and unregistered alike), would be either wired to PayPal or the credit card form based on that preference.
+
+Considering this, I identified **4 distinct gift card purchase flows**:
 
 <div class="gallery" data-columns="1" style="max-width: 860px;">
-	<img src="/images/cards/08-gift-cards-user-flows.jpg">
+	<img src="/images/cards/09-gift-cards-user-flows.jpg">
 </div>
 
 <p style="font-size: 94%; color: #777777; margin-top: 35px; font-style: italic;"><span style="color: #333333;"><strong>UI changes for stored preferred payment method.</strong></span> Users would be asked to choose the payment method only once. On the next purchase, the buy buttons reflects the choice. The same pattern is used on the regular purchase flow.</p>
 
-<div class="gallery" data-columns="3">
-	<img src="/images/cards/11-preference-card.jpg">
-  <img src="/images/cards/12-no-preference.jpg">
-  <img src="/images/cards/13-preference-paypal.jpg">
+<div class="gallery" data-columns="1" style="max-width: 960px;">
+	<img src="/images/cards/10-payment-preference-GIF.gif">
 </div>
 
-From a user’s perspective the purchase finished with landing on the post-purchase page. To design and implement we had to go deeper than that, taking into account the ***post-purchase services**. Post-purchase services are all the automated actions triggered by the purchase. For GC, they included: sending the buyer a receipt email, generating a gift card order page and link it in the said receipt; send out the delivery email, to the recipient or the buyer.
+From a user’s perspective the purchase finished with landing on the post-purchase page. To design and implement we had to go deeper than that, taking into account the **post-purchase services**. Post-purchase services are all the automated actions triggered by the purchase. For GC, they included: sending the buyer a receipt email, generating a gift card order page and link it in the said receipt; send out the delivery email, to the recipient or the buyer.
 
 About **delivery options**, buyers could choose between:
 
@@ -146,14 +148,15 @@ About **delivery options**, buyers could choose between:
 To be sure all the pieces were falling into the right place, I produced a second round of more detailed user flows. At this stage, the purchase flow for a user with no saved payment preference surely looked busier:
 
 <div class="gallery" data-columns="1">
-	<img src="/images/cards/09-no-payment-user-flows.jpg">
+	<img src="/images/cards/11-no-payment-user-flows.jpg">
 </div>
 
 
 Check out Bandcamp Gift Cards live at [https://bandcamp.com/gift_cards](https://bandcamp.com/gift_cards) to see how buying feels.
 
-<div class="gallery" data-columns="1" style="max-width: 1024px;">
-	<img src="/images/cards/14-mobile-buy-GC-GIF.gif">
+<div class="gallery" data-columns="2">
+	<img src="/images/cards/12-mobile-buy-GC-GIF.gif">
+  <img src="/images/cards/13-post-purchase-services.jpg">
 </div>
 
 
@@ -163,18 +166,23 @@ Check out Bandcamp Gift Cards live at [https://bandcamp.com/gift_cards](https://
 Now let’s explore the giftee’s experience. There were **3 user scenarios for redeeming a card**:
 
 <div class="gallery" data-columns="1" style="max-width: 860px;">
-	<img src="/images/cards/15-redeeming-types.jpg">
+	<img src="/images/cards/14-redeeming-types.jpg">
 </div>
 
 Pre-filling the code field helped making code redemption as user friendly as possible. This included:
 * Ensure that copy and paste would always work, no matter if it included extra spaces or the dashes.
 * For manual enter, converting lower case to upper case when typing, and automatically add the dashes.
 
-[redemption page]
+<div class="gallery" data-columns="1" style="max-width: 1200px;">
+	<img src="/images/cards/15-redeem-page.jpg">
+</div>
 
-Code redemption had the key requirement that **all users must sign up for an account in order to access their credit.** This means that between redeeming the code, and getting the confirmation of that credit was added to their account and available to use, all unregistered users had to sign up.
+Code redemption required that **all users must sign up for an account in order to access their credit.** The redemption flow would redirect users to log in or sign up in order to access the gift credit.
 
-[user flow redemption]
+The original sign up flow included a guided set up of the account, the familiar tooltip tour introducing new users to their account. We added an exception for GC sign ups, so users would skip the walkabout, and just get to the confirmation that they could now use their credit.
 
+<div class="gallery" data-columns="1"  style="max-width: 1200px;">
+	<img src="/images/cards/16-redeeming-flow.jpg">
+</div>
 
-At the end of the funnel users landed on the **confirmation page**.
+[desktop + mobile web redemption flow GIFs]

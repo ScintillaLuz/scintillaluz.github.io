@@ -1,7 +1,7 @@
 ---
 title: 'Building a scalable post purchase experience'
 subtitle: ''
-date: 2019-01-03 00:00:00
+date: 2019-06-01 00:00:00
 description: Redesigning the post purchase experience for mobile web, fan app, and desktop
 featured_image: '/images/home-thumbs/post_purchase_thumb.jpg'
 ---

@@ -1,7 +1,7 @@
 ---
-title: 'Bringing editorial content to Bandcamp’s front page'
+title: 'Bringing editorial to Bandcamp’s Front Page'
 subtitle: ''
-date: 2019-01-28 00:00:00
+date: 2019-03-01 00:00:00
 description: Bringing editorial content to Bandcamp’s front page
 featured_image: '/images/home-thumbs/homepage_thumb.jpg'
 ---

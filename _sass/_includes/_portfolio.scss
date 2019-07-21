@@ -64,13 +64,16 @@
 }
 
 .portfolio-item__info {
-	margin-right: 20px;
-	text-align: left;
-	position: absolute;
-	top: 15px;
-	left: 20px;
-	@include mq(laptop) {
-		margin-right: 30%;
+	text-align: center;
+	margin: 0 auto;
+	max-width: 80%;
+
+	// @include mq(laptop) {
+	// 	max-width: 70%;
+	// }
+
+	@include mq(desktop) {
+		max-width: 50%;
 	}
 }
 

@@ -94,7 +94,7 @@ font_settings:
   grid_item_title:
     small_size: 30
     medium_size: 30
-    large_size: 50
+    large_size: 60
     weight: 800
     letter_spacing: 0
   grid_item_subtitle:
