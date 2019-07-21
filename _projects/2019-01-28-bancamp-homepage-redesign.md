@@ -113,7 +113,7 @@ I took these requirements and came up with a set of rules that combined automate
 
 ## Search Autocomplete (a two day hack)
 
-Every year Bandcamp’s distributed team comes together to spend a week catching up, *in real life*. Usually working from our home offices, we get the chance to discover who’s actually very tall, and break the video chat habits. In 2017 Alexandra Hindley (Labels’ engineering lead) and I took over a 48-hours mini project, implementing a first version of an autocomplete in the homepage search bar.
+Every year Bandcamp’s distributed team comes together to spend a week catching up, *in real life*. Usually working from our home offices, we get the chance to discover who’s actually very tall, and break the video chat habits. In 2017 Alexandra Hindley (Labels’ engineering lead) and I took over a 48-hour mini project, implementing a first version of an autocomplete in the homepage search bar.
 
 
 <p style="font-size: 94%; color: #777777; margin-top: 35px; font-style: italic;"><span style="color: #333333;"><strong>Searching for a generic word (1)</strong></span> and <span style="color: #333333;"> <strong>Searching for a keyword matching a music genre (2) </strong></span>. If a word matches one of our pre-defined music genres, the autocomplete returns a shortcut to the genre page, and a list of related tags/genres.</p>
