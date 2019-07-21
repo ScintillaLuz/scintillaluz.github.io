@@ -166,7 +166,7 @@ Now let’s explore the giftee’s experience. There were **3 user scenarios for
 	<img src="/images/cards/15-redeeming-types.jpg">
 </div>
 
-Pre-filling the code field was part of the effort to make code redemption as user friendly as possible. This included:
+Pre-filling the code field helped making code redemption as user friendly as possible. This included:
 * Ensure that copy and paste would always work, no matter if it included extra spaces or the dashes.
 * For manual enter, converting lower case to upper case when typing, and automatically add the dashes.
 
