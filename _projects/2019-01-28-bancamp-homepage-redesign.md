@@ -1,8 +1,8 @@
 ---
-title: 'Bringing editorial to Bandcamp’s home page'
+title: 'Bringing editorial content to Bandcamp’s front page'
 subtitle: ''
 date: 2019-01-28 00:00:00
-description: Bringing editorial to Bandcamp’s home page
+description: Bringing editorial content to Bandcamp’s front page
 featured_image: '/images/home-thumbs/homepage_thumb.jpg'
 ---
 
@@ -30,7 +30,7 @@ Up until the *Daily* was born, the homepage represented Bandcamp’s main displa
 
 ### Old Home, New Plan
 
-By the time I got assigned the redesign, Bandcamp’s homepage was divided in to 7 sections, and a footer. The upper sections of the page were dedicated to **music discovery**, opening with a large full-width banner hosting the latest episode of our radio show, *The Bandcamp Weekly*. Following there was a combination of smaller sections, offering different ways to browse, filter, and dig to find them music gems they’ve been looking for. Believing in user conversion through purchase, the CTAs for sign up were considered secondary to the discovery, and lined up at the very bottom of the page.
+By the time I got assigned the redesign, Bandcamp’s homepage was divided in to 7 sections, and a footer. The upper sections of the page were dedicated to **music discovery**, opening with a large full-width banner hosting the latest episode of our radio show, *The Bandcamp Weekly*. Below there was a combination of smaller sections, offering different ways to browse, filter, and dig to find them music gems they’ve been looking for. With an emphsais on user conversion through purchasing, the CTAs for sign up were considered secondary to music discovery, and lined up at the very bottom of the page.
 
 
 
