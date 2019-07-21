@@ -36,7 +36,7 @@ By the time I got assigned the redesign, Bandcamp’s homepage was divided in to
 
 ### Step One, Hero Banner
 
-Before anything, I worked on the full-width banner to repurpose it. From the brief, it was to fit three or more *Daily* headlines, and the current Weekly episode. I started playing with big headlines on flat-coloured backgrounds, animated slideshows, and tiled grids. We called this module ***the carousel***. My soft spot was for galleries with bright colours and full blown photographs, but considering mobile web performances we opted for a static carousel.
+Before anything, I worked on the full-width banner to repurpose it. From the brief, it was to fit three or more *Daily* headlines, and the current Weekly episode. I started playing with big headlines on flat-coloured backgrounds, animated slideshows, and tiled grids. We called this module ***the carousel***. My soft spot was for galleries with bright colours and full blown photographs, but considering mobile web performance we opted for a static carousel.
 
 <p style="font-size: 94%; color: #777777; margin-top: 35px; font-style: italic;"><span style="color: #333333;"><strong>Below: rejected early proposals.</strong></span> The layouts were balanced and catchy, but we wanted to present all the content at once, also avoiding performance issues. – <span style="color: #333333;">
 click on the images to enlarge</span></p>
@@ -50,7 +50,7 @@ click on the images to enlarge</span></p>
 
 The proposal that made the cut had no slideshow, with images arranged in a tiled layout. The mobile version used a nifty swiping pattern to scroll secondary headlines, maximizing the horizontal space with a catchy gesture.
 
-<p style="font-size: 94%; color: #777777; margin-top: 35px; font-style: italic;"><span style="color: #333333;"><strong>Not only a matter of performances. This layout better supports highlighting an individual story.</strong></span> On the left: mobile web and desktop when a _Daily_ articles is highlighted. On the right: Weekly radio episode taking over the main spot. Clicking the play button, the tile grows to full width and the title card expands into a player.</p>
+<p style="font-size: 94%; color: #777777; margin-top: 35px; font-style: italic;"><span style="color: #333333;"><strong>Not only a matter of performance. This layout better supports highlighting an individual story.</strong></span> On the left: mobile web and desktop when a _Daily_ articles is highlighted. On the right: Weekly radio episode taking over the main spot. Clicking the play button, the tile grows to full width and the title card expands into a player.</p>
 
 <div class="gallery" data-columns="2">
 	<img src="/images/homepage/01-daily-feature-GIF.gif">
