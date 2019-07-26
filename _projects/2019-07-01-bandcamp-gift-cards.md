@@ -184,5 +184,3 @@ The original sign up flow included a guided set up of the account, the familiar 
 <div class="gallery" data-columns="1"  style="max-width: 1200px;">
 	<img src="/images/cards/16-redeeming-flow.jpg">
 </div>
-
-[desktop + mobile web redemption flow GIFs]
